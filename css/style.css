@@ -1,0 +1,152 @@
+/* Cabeçalho */
+* {
+    box-sizing: border-box;
+}
+
+#cabecalhomain {
+    display: flex;
+}
+#cabecalho_1 { 
+    background-color: black;
+    border-radius: 5px;
+    width: 15%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+#cabecalho_2 {
+    background-color: black;
+    width: 80%;
+    float: left;
+    margin-bottom: 6%;
+}
+
+#cabecalhologo {
+    width: 100%;
+}
+
+#cabecalhotext {
+    margin: 5% 0% 5% 0%;
+}
+#cabecalhotext > h2 {
+    color: white;
+}
+
+
+#logo {
+    width: 100%;
+}
+/* fim do cabeçalho */
+
+/*Conteudo*/
+#c{
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgba(225, 225, 230, 0.65);
+    margin: 0% 10%;
+    padding: 1% 0%;
+    border-style: outset;
+    border-color: rgb(20, 20, 20, .5);
+    border-width: 3px;
+    border-radius: 8px;
+}
+
+#c1 {
+    flex: 100%;
+}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#galeria > img {
+    width: 200px;
+}
+
+/*Fim do conteudo*/
+
+/*Rodapé*/
+#rodape {
+    background-color: black;
+    height: 100px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+/*Fim do Rodapé*/
+
+/*Outros*/
+a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0% 1%;
+    padding: 2px;
+    font-family: 'Calibri', sans-serif;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    background-color: rgb(20, 20, 20);
+}
+
+a:hover {
+    border-radius: 10px;
+    transition: border-radius 0.5s;
+    background-color: rgb(68, 68, 68);
+}
+
+img{
+    width: 65%;
+    border-radius: 5px;
+}
+
+#imglink {
+    text-decoration: none;
+    color: transparent;
+    border-radius: 0px;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.th {
+    min-width: 10%;
+}
+
+.redes {
+    width: 10%;
+}
+
+.paragrafo{
+    width: 200px;
+}
+
+p {
+    font-family: 'Calibri', sans-serif;
+}
+
+h1 {
+    font-family: 'Calibri', sans-serif;
+}
+
+h2 {
+    font-family: 'Calibri', sans-serif;
+}
+
+h3 {
+    font-family: 'Calibri', sans-serif;
+    color: white;
+}
+
+h4 {
+    font-family: 'Calibri', sans-serif;
+}
+
+h5 {
+    font-family: 'Calibri', sans-serif;
+}
+
+h6 {
+    font-family: 'Calibri', sans-serif;
+}
