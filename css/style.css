@@ -130,6 +130,13 @@ img{
     border-radius: 5px;
 }
 
+#barbeariaface > a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    background: rgb(32, 90, 250);
+}
+
 #imglink {
     text-decoration: none;
     color: transparent;
