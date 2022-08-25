@@ -8,17 +8,13 @@
 #cabecalhomain {
     display: flex;
     margin-bottom: 5%;
+    background-color: black;
+    height: 100%;
 }
 
-#cabecalhomain > img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
 #cabecalho_1 { 
     flex: 20%;
-    height: 30%;
+    height: 25%;
 }
 
 #cabecalho_2 {
@@ -275,3 +271,48 @@ h5 {
 h6 {
     font-family: 'Calibri', sans-serif;
 }
+
+/*Forms*/
+.container {
+    width: 500px;
+    height: 300px;
+}
+
+
+.m-3 > h3 {
+    color: black;
+}
+
+#pwd, #labelpwd {
+    position: relative;
+    right: 2%;
+}
+
+#pwd, #email {
+    width: 40%;
+    height: 30px;
+    border: 1px outset rgb(20, 20, 20, .5);
+    cursor:auto;
+}
+
+#pwd:hover, #email:hover {
+    border-color: rgb(40, 40, 40, .5);
+}
+
+#btnLogin {
+    cursor: pointer;
+    border: none;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+}
+
+#btnLogin:hover {
+    background-color: green;
+}
+
+#btnLogin:active {
+    background-color: darkgreen;
+}
+
+/*Fim do Forms*/
