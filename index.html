@@ -5,8 +5,9 @@
         <link rel="stylesheet" href="./css/style.css">
         <title>Barbearia de Freitas</title>
     </head>
-    <body>
+    <body> 
         <div id="cabecalhomain">
+            <img src="./img/loja2.png">
             <div id="cabecalho_1" align="center"> <!--Divisão da logo-->
                 <div id="cabecalhologo">
                     <img src="img/logo.png" id="logo"></a>
@@ -15,14 +16,14 @@
             <div id="cabecalho_2" align="center"> <!--Divisão do texto e botão "entrar"-->
                 <div id="cabecalhotext">
                     <h2>Barbearia de Freitas</h2>
-                    <a href="#"> Entrar </a>
+                    <a href="./form.html"> Entrar </a>
                 </div>
             </div>
         </div>
         <div id="c" align="center"> <!--Conteudo principal-->
             <div id="c1">
                 <div id="imagemprincipal">
-                    <img src="img/loja1.jpg">
+                    <img src="img/loja1.png" >
                 </div>
                 <div id="c1_1">
                     <p> Barbearia de Freitas é um ótimo local aparar a juba, fazer a barba e beber com
@@ -38,6 +39,7 @@
                 <h2>serviços</h2>
                 <div id="servicos">
                     <div class="subservicos">
+                        <img src="img/servico1.png" class="fadeimg">
                         <h3>
                             Bar
                         </h3>
@@ -49,6 +51,7 @@
                         </p>
                     </div>
                     <div class="subservicos">
+                        <img src="img/servico2.png" class="fadeimg">
                         <h3>
                             Barba
                         </h3>
@@ -60,6 +63,7 @@
                         </p>
                     </div>
                     <div class="subservicos">
+                        <img src="img/servico3.png" class="fadeimg">
                         <h3>
                             Cabelo
                         </h3>
@@ -71,6 +75,7 @@
                         </p>
                     </div>
                     <div class="subservicos">
+                        <img src="img/servico4.png" class="fadeimg">
                         <h3>
                             Coloração
                         </h3>
@@ -85,11 +90,48 @@
                 </div>
             </div>
             <div id="galeria">
-                <img src="img/loja2.jpg">
-                <img src="img/loja3.jpg">
-                <img src="img/loja4.jpg">
-                <img src="img/loja5.jpg">
-                <img src="img/loja6.jpg">
+                <input type="button" value="<" onclick="left()" id="dir">
+                <p id="01"></p>
+                <input type="button" value=">" onclick="right()" id="esq">
+                <script>
+                    //script
+                    var img;
+                    var im = document.getElementById("01");
+                    var imgid = {
+                        1:'<img src="img/loja3.png">',
+                        2:'<img src="img/loja4.png">',
+                        3:'<img src="img/loja5.png">',
+                        4:'<img src="img/loja6.png">',
+                        5:'<img src="img/loja7.png">',
+                        6:'<img src="img/loja8.png">',
+                        7:'<img src="img/loja9.png">',
+                        8:'<img src="img/loja10.png">',
+                        9:'<img src="img/loja3.png">' //a primeira imagem sempre ficará no final
+                    };
+                    im.innerHTML = imgid[1];
+                    img = document.getElementById("01").innerHTML;
+                    //console.log(imgid, img, im);
+                    function right() {
+                        console.log(img);
+                        for (let i = 1, h = 2; i < 9; i++, h++) {
+                            if (imgid[i] == img) {
+                                im.innerHTML = imgid[h];
+                            }
+                        }
+                        img = document.getElementById("01").innerHTML;
+                    }
+                    function left() {
+                        console.log(img);
+                        for (let i = 1, h = 0; i < 9; i++, h++) {
+                            if (imgid[i] == img && h !== 0) {
+                                im.innerHTML = imgid[h];
+                            }
+
+                        }
+                        img = document.getElementById("01").innerHTML;
+                    }
+                    
+                </script>
             </div>
             <div id="barbeariaface">
                 <br/>
@@ -102,8 +144,8 @@
                 <h3>
                     Redes sociais
                 </h3>
-                <a href="https://www.facebook.com/BarbeariadeFreitas/" target="_blank">
-                    <b>F</b>
+                <a href="https://www.facebook.com/BarbeariadeFreitas/" target="_blank" id="facelink">
+                    <img src="./img/facebook.png" id="face">
                 </a>
             </div>
             <div class="subanterodape">
