@@ -5,7 +5,7 @@ para poder prosseguir em seu próprio projeto.
 
 Veja o site de nossa empresa: https://projetos.talentosdoifsp.gru.br/jjastec/
 
-Conheça a Barbearia de Freitas: https://hostdeprojetosdoifsp.gru.br/barbearia-freitas/
+Conheça a Barbearia de Freitas: https://hostdeprojetosdoifsp.gru.br/barbfreitas/
 
 © COPYRIGHT 2022 - JJ Assuntos Técnicos
 
