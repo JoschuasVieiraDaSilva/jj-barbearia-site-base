@@ -273,6 +273,11 @@ h6 {
 }
 
 /*Forms*/
+
+label {
+    font-family: 'Calibri', sans-serif;
+}
+
 .container {
     width: 500px;
     height: 300px;
