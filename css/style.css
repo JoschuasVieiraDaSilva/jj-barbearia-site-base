@@ -10,6 +10,7 @@
     margin-bottom: 5%;
     background-color: black;
     height: 100%;
+    padding-bottom: 2px;
 }
 
 #cabecalho_1 { 
@@ -34,6 +35,17 @@
 }
 #logo {
     width: 100%;
+}
+
+#logoid {
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#logoid:hover {
+    border-radius: 0px;
 }
 /* fim do cabeçalho */
 
@@ -102,7 +114,7 @@
 }
 
 .fadeimg {
-    height: 300px;
+    height: 200px;
 }
 
 #galeria {
@@ -288,12 +300,12 @@ label {
     color: black;
 }
 
-#pwd, #labelpwd {
+#pwd, #labelpwd, #labelname, #labelidade {
     position: relative;
-    right: 2%;
+    right: 1%;
 }
 
-#pwd, #email {
+#pwd, #email, #name, #age {
     width: 40%;
     height: 30px;
     border: 1px outset rgb(20, 20, 20, .5);
@@ -317,6 +329,39 @@ label {
 }
 
 #btnLogin:active {
+    background-color: darkgreen;
+}
+
+#btnRegister {
+    cursor: pointer;
+    border: none;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+}
+
+#btnRegister:hover {
+    background-color: green;
+}
+
+#btnRegister:active {
+    background-color: darkgreen;
+}
+
+#Register_link {
+    cursor: pointer;
+    border: none;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}
+
+#Register_link:hover {
+    background-color: green;
+    border-radius: 0px;
+}
+
+#Register_link:active {
     background-color: darkgreen;
 }
 
