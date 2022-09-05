@@ -233,12 +233,19 @@ a:hover {
     border-radius:0px;
     border:none;
     font-style:none;
-    color:#25d366;
 }
 
 .linkzerostyle:hover {
     border-radius:0px;
-    color:#25d366;
+}
+
+#whats {
+    background:#25d366;
+    border-radius: 50px;
+}
+
+#whats:hover {
+    background:#21bd5c
 }
 
 img{
