@@ -233,10 +233,12 @@ a:hover {
     border-radius:0px;
     border:none;
     font-style:none;
+    color:#25d366;
 }
 
 .linkzerostyle:hover {
-    border-radius:0px;   
+    border-radius:0px;
+    color:#25d366;
 }
 
 img{
