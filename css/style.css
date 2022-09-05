@@ -229,6 +229,12 @@ a:hover {
     background-color: rgb(70, 70, 70);
 }
 
+.linkzerostyle {
+    border-radius:0px;
+    border:none;
+    font-style:none;
+}
+
 img{
     width: 100%;
     height: 100%;
