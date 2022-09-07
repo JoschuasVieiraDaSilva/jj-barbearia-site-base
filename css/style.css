@@ -178,12 +178,12 @@
     color: white;
 }
 
-#face {
+#social {
     width: 50px;
     height: 50px;
 }
 
-#facelink {
+#sociallink {
     width: 50px;
     height: 50px;
 }
@@ -227,25 +227,6 @@ a:hover {
     border-radius: 10px;
     transition: border-radius 0.5s;
     background-color: rgb(70, 70, 70);
-}
-
-.linkzerostyle {
-    border-radius:0px;
-    border:none;
-    font-style:none;
-}
-
-.linkzerostyle:hover {
-    border-radius:0px;
-}
-
-#whats {
-    background:#25d366;
-    border-radius: 50px;
-}
-
-#whats:hover {
-    background:#21bd5c
 }
 
 img{
