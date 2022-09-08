@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     #servicos {
         flex-direction: column;
     }
@@ -208,6 +208,13 @@
     background-color: black;
     height: 100px;
     padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.direitos {
+    margin: auto;
 }
 /*Fim do Rodapé*/
 
