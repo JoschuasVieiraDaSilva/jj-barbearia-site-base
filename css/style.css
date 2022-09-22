@@ -60,12 +60,8 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    background-color: rgba(225, 225, 230, 0.65);
     margin: 0% 10%;
     padding: 1% 0%;
-    border-style: outset;
-    border-color: rgb(20, 20, 20, .5);
-    border-width: 3px;
     
 }
 
