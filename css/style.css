@@ -3,9 +3,15 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 800px) {
-    #servicos {
+@media (max-width: 700px) {
+    div {
+        flex-wrap: nowrap;
         flex-direction: column;
+    }
+    #imagemprincipal{
+        width: 70%;
+        position: absolute;
+        left: 15%
     }
 }
 
@@ -46,8 +52,8 @@
 #logoid {
     cursor: pointer;
     border: none;
-    background: none;
     color: white;
+    background: none;
 }
 
 #logoid:hover {
@@ -60,13 +66,19 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    margin: 0% 10% 0% 20%; 
+    margin: 0% 10% 0% 20%;
     padding: 1% 0%;
     width: 60%;
+    
 }
-
+#imagemprincipal {
+    display: flex;
+    background: black;
+}
 #imagemprincipal > img{
-    width: 50%;
+    width: 100%;
+    position: relative;,
+   
 }
 
 #c1 {
