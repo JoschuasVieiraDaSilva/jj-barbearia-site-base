@@ -46,7 +46,7 @@
 #logoid {
     cursor: pointer;
     border: none;
-    background-color: black;
+    background: none;
     color: white;
 }
 
@@ -60,9 +60,9 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    margin: 0% 10%;
+    margin: 0% 10% 0% 20%; 
     padding: 1% 0%;
-    
+    width: 60%;
 }
 
 #imagemprincipal > img{
