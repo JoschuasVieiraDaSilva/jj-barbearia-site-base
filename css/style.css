@@ -77,7 +77,7 @@
 }
 #imagemprincipal > img{
     width: 100%;
-    position: relative;,
+    position: relative;
    
 }
 
@@ -331,12 +331,17 @@ label {
     color: black;
 }
 
-#pwd, #labelpwd, #labelname, #labelidade {
+#pwd, #labelpwd, #labelname, #labelidade{
     position: relative;
     right: 1%;
 }
 
-#pwd, #email, #name, #age {
+#service, #labelservice {
+    position: relative;
+    right: 3%;
+}
+
+.form-control {
     width: 40%;
     height: 30px;
     border: 1px outset rgb(20, 20, 20, .5);
@@ -347,7 +352,7 @@ label {
     border-color: rgb(40, 40, 40, .5);
 }
 
-#btnLogin {
+.btn {
     cursor: pointer;
     border: none;
     padding: 15px 30px;
@@ -355,30 +360,13 @@ label {
     color: white;
 }
 
-#btnLogin:hover {
+.btn:hover {
     background-color: green;
 }
 
-#btnLogin:active {
+.btn:active {
     background-color: darkgreen;
 }
-
-#btnRegister {
-    cursor: pointer;
-    border: none;
-    padding: 15px 30px;
-    background-color: black;
-    color: white;
-}
-
-#btnRegister:hover {
-    background-color: green;
-}
-
-#btnRegister:active {
-    background-color: darkgreen;
-}
-
 #Register_link {
     cursor: pointer;
     border: none;
