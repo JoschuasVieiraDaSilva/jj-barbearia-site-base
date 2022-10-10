@@ -20,7 +20,7 @@
             <div id="cabecalho_2" align="center"> <!--Divisão do texto-->
                 <div id="cabecalhotext">
                     <h2>Barbearia de Freitas</h2>
-                    <a href="agendamento.html" id="link_agend">Agendamento</a>
+                    <a href="agendamento.php" id="link_agend">Agendamento</a>
                 </div>
             </div>
         </div>
