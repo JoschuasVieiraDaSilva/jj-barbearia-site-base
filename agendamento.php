@@ -31,7 +31,7 @@
             <div id="cabecalho_2" align="center"> <!--Divisão do texto e botão "entrar"-->
                 <div id="cabecalhotext">
                     <h2>Barbearia de Freitas</h2>
-                    <a href="./form.html"> Entrar </a>
+                    <a href="./login.php"> Login </a>
                 </div>
             </div>
         </div>
