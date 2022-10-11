@@ -79,7 +79,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
                         <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha:" name="senha">
                     </div>
                     <br/>
-                    <button type="button" id="btnLogin"  class="btn btn-primary">Enviar</button>
+                    <button type="submit" id="btnLogin"  class="btn btn-primary">Enviar</button>
                 </form>
                 <p>Não possui uma conta?</p>
                 <a href="register.php" id="Register_link">Registre-se</a>
