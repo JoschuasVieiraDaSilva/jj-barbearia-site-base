@@ -14,23 +14,19 @@
         left: 15%
     }
 }
-
+body {
+    background-color: rgb(61, 58, 58);
+}
 /* Cabeçalho */
 
 #cabecalhomain {
     display: flex;
     margin-bottom: 5%;
-    background-color: black;
     height: 100%;
     padding-bottom: 2px;
 }
 
-#cabecalho_1 { 
-    flex: 20%;
-    height: 25%;
-}
-
-#cabecalho_2 {
+#cabecalho {
     flex: 80%;
 }
 
@@ -39,26 +35,25 @@
 }
 #cabecalhotext > h2 {
     color: white;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 #cabecalhotext > a {
     font-size:2.5vw;
 }
-#logo {
-    width: 100%;
+
+#logo_size {
+    width: 1px;
 }
 
-#logoid {
-    cursor: pointer;
-    border: none;
-    color: white;
-    background: none;
+.logo {
+    object-fit: contain;
+    z-index: -1;
+    position: fixed;
+    max-height: none; 
+    opacity: 0.3;
 }
 
-#logoid:hover {
-    border-radius: 0px;
-}
 /* fim do cabeçalho */
 
 /*Conteudo*/
@@ -231,17 +226,18 @@ a {
     transition: border-radius 0.5s;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin: 0% 1%;
-    padding: 2px;
+    margin: 0% 2%;
+    padding: 10px;
     font-family: 'Calibri', sans-serif;
-    border: solid whitesmoke;
-    background-color: rgb(30, 30, 30);
+    border: solid rgb(88, 12, 12);
+    border-radius: 4px;
+    background-color: rgb(88, 12, 12);
 }
 
 a:hover {
-    border-radius: 10px;
+    border: solid rgb(80, 80, 80);
     transition: border-radius 0.5s;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(80, 80, 80);
 }
 
 .linkzerostyle {
@@ -288,6 +284,7 @@ img{
 
 p {
     font-family: 'Calibri', sans-serif;
+    color: white;
 }
 
 h1 {
@@ -295,7 +292,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(180, 180, 180);
 }
 
 h3 {
@@ -315,6 +313,9 @@ h6 {
     font-family: 'Calibri', sans-serif;
 }
 
+#servi {
+    font-size:2.5vw;
+}
 /*Forms*/
 
 label {
