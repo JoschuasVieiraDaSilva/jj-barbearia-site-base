@@ -1,4 +1,4 @@
-/*Box*/
+﻿/*Box*/
 * {
     box-sizing: border-box;
 }
@@ -283,34 +283,38 @@ img{
 }
 
 p {
-    font-family: 'Calibri', sans-serif;
-    color: white;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(200, 200, 200);
 }
 
 h1 {
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(200, 200, 200);
 }
 
 h2 {
     font-family: 'Brush Script MT', cursive;
-    color: rgb(180, 180, 180);
+    color: rgb(200, 200, 200);
 }
 
 h3 {
-    font-family: 'Calibri', sans-serif;
-    color: white;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(200, 200, 200);
 }
 
 h4 {
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(200, 200, 200);
 }
 
 h5 {
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(200, 200, 200);
 }
 
 h6 {
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(200, 200, 200);
 }
 
 #servi {
