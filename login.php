@@ -17,18 +17,13 @@
         <script src="assets/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        <div id="cabecalhomain">
-            <div id="cabecalho_1" align="center"> <!--Divisão da logo-->
-                <div id="cabecalhologo">
-                    <a href="index.html" id="logoid"><img src="assets/img/logo.png" id="logo"></a>
-                </div>
-            </div>
-            <div id="cabecalho_2" align="center"> <!--Divisão do texto-->
-                <div id="cabecalhotext">
-                    <h2>Barbearia de Freitas</h2>
-                    <a href="agendamento.php" id="link_agend">Agende-se aqui</a>
-                </div>
-            </div>
+        <div id="whatsapp_link">
+            <a href="https://api.whatsapp.com/send?phone=5511969690879" target="_blank" class="linkzerostyle">
+                <img src="assets/img/whatsapp.png" class="icon_fixed">
+            </a>
+        </div>
+        <div id="logo_size">
+            <img src="assets/img/logo.png" class="logo">
         </div>
         <div id="c" align="center"> <!--Conteudo principal-->
             <div class="container m-3" >
@@ -51,16 +46,16 @@
                 <div id="msg"></div>
             </div>
         </div>
-        <div id="anterodape">
+        <div id="anterodape" class="spaceplus">
             <div class="subanterodape">
                 <h3>
                     Redes sociais
                 </h3>
-                <a href="https://www.facebook.com/BarbeariadeFreitas/" target="_blank" id="facelink">
-                    <img src="assets/img/facebook.png" id="face">
+                <a href="https://www.facebook.com/BarbeariadeFreitas/" target="_blank">
+                    <img src="assets/img/facebook.png" class="icon">
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=5511969690879" target="_blank" id="facelink">
-                    <img src="assets/img/whatsapp.png" id="face">
+                <a href="https://api.whatsapp.com/send?phone=5511969690879" target="_blank">
+                    <img src="assets/img/whatsapp.png" class="icon">
                 </a>
             </div>
             <div class="subanterodape">
@@ -81,10 +76,11 @@
             </div>
         </div>
         <footer id="rodape" align="center"> <!--Rodapé-->
-            <h3>
-                &copy JJ Assuntos Ténicos 2022
+            <h3 class="direitos">
+                © JJ Assuntos Ténicos 2022
             </h3>
-            <h3>
+            <br>
+            <h3 class="direitos">
                 Todos os direitos reservados
             </h3>
         </footer>

@@ -6,6 +6,14 @@
         <title>Barbearia de Freitas</title>
     </head>
     <body>
+        <div class="fixedcontent" id="entrar">
+            <a href="./login.php">Entrar</a>
+        </div>
+        <div id="whatsapp_link">
+            <a href="https://api.whatsapp.com/send?phone=5511969690879" target="_blank" class="linkzerostyle">
+                <img src="assets/img/whatsapp.png" class="icon_fixed">
+            </a>
+        </div>
         <div id="logo_size">
             <img src="assets/img/logo.png" class="logo">
         </div>
@@ -13,31 +21,53 @@
             <div id="cabecalho" align="center"> <!--Divisão do texto e botão "entrar"-->
                 <div id="cabecalhotext">
                     <h2>Barbearia de Freitas</h2>
-                    <a href="./login.php"> Login </a>
-                    <a href="agendamento.php" id="link_agend"> Agende seu dia aqui</a>
                 </div>
             </div>
         </div>
         <div id="c" align="center"> <!--Conteudo principal-->
-            <div id="c1">
-                <div id="imagemprincipal">
-                    <img src="assets/img/loja1.png" >
+            <div id="c1"> <!--Primeira sessão de conteudo-->
+                <div class="sidedcontent space c1_1"> <!--primeira subsessão do primeiro conteudo-->
+                    <div class="imagemconteudo">
+                        <img src="assets/img/loja1.png" class="imagemborda" >
+                    </div>
+                    <div class="c1_1">
+                        <p> 
+                            Barbearia de Freitas é um ótimo local aparar a juba, fazer a barba e beber com
+                            amigos, em um ambiente descontraído e de estilo, venham nos conhecer!
+                            A Barbearia de Freitas é a barbearia da sua época. 
+                        </p>
+                    </div>
                 </div>
-                <div id="c1_1">
-                    <p> Barbearia de Freitas é um ótimo local aparar a juba, fazer a barba e beber com
-                        amigos, em um ambiente descontraído e de estilo, venham nos conhecer!
-                        A Barbearia de Freitas é a barbearia da sua época. Focada em excelência, a
-                        Barbearia de Freitas conta com tudo que um homem precisa. Um ambiente
-                        confortável, descontraído e maneiro, com cuidados para todos os estilos de barba e
-                        cabelo, além de serviços como. Uma barbearia de boa qualidade, para cuidar do
-                        visual, tomar uma cerveja, assistir aos seus esportes favoritos (se estiver passando)
-                        ou só conversar.
-                    </p>
+                <div class="sidedcontent space c1_1">
+                    <div class="c1_1"> 
+                        <p> 
+                            Focada em excelência, a Barbearia de Freitas conta com tudo que um homem precisa. Um ambiente
+                            confortável, descontraído e maneiro, com cuidados para todos os estilos de barba e
+                            cabelo, além de outros serviços. 
+                        </p>
+                    </div>
+                    <div class="imagemconteudo">
+                        <img src="assets/img/loja4.png" class="imagemborda">
+                    </div>
                 </div>
-                <h3 id="servi">serviços</h3>
-                <div id="servicos">
-                    <div class="subservicos">
-                        <img src="assets/img/servico1.png" class="fadeimg">
+                <div class="sidedcontent space c1_1">
+                    <div class="imagemconteudo">
+                        <img src="assets/img/loja5.png" class="imagemborda">
+                    </div>
+                    <div class="c1_1">
+                        <p>
+                            Uma barbearia de boa qualidade, para cuidar do
+                            visual, tomar uma cerveja, assistir aos seus esportes favoritos (se estiver passando)
+                            ou só conversar.
+                        </p>
+                    </div>
+                </div>
+                <h3 class="servi">Serviços</h3>
+                <div class="sidedcontent space c1_2"> <!--segunda subsessão do primeiro conteudo-->
+                    <div class="imagemconteudo">
+                        <img src="assets/img/servico1.png" class="imgfree imagembola">
+                    </div>
+                    <div class="c_servico">
                         <h3>
                             Bar
                         </h3>
@@ -48,8 +78,12 @@
                             ambiente descontraído e aconchegante?
                         </p>
                     </div>
-                    <div class="subservicos">
-                        <img src="assets/img/servico2.png" class="fadeimg">
+                </div>
+                <div class="sidedcontent space c1_2">
+                    <div class="imagemconteudo">
+                        <img src="assets/img/servico2.png" class="imgfree imagembola">
+                    </div>
+                    <div class="c_servico">
                         <h3>
                             Barba
                         </h3>
@@ -60,8 +94,12 @@
                             opção para homens que querem ficar com a barba em dia.
                         </p>
                     </div>
-                    <div class="subservicos">
-                        <img src="assets/img/servico3.png" class="fadeimg">
+                </div>
+                <div class="sidedcontent space c1_2">
+                    <div class="imagemconteudo">
+                        <img src="assets/img/servico3.png" class="imgfree imagembola">
+                    </div>
+                    <div class="c_servico">    
                         <h3>
                             Cabelo
                         </h3>
@@ -72,8 +110,12 @@
                             opção para homens que querem ficar com um penteado na régua.
                         </p>
                     </div>
-                    <div class="subservicos">
-                        <img src="assets/img/servico4.png" class="fadeimg">
+                </div>
+                <div class="sidedcontent space c1_2">
+                    <div class="imagemconteudo divfree">
+                        <img src="assets/img/servico4.png" class="imgfree imagembola">
+                    </div>
+                    <div class="c_servico">    
                         <h3>
                             Coloração
                         </h3>
@@ -86,6 +128,7 @@
                         </p>
                     </div>
                 </div>
+                <h3 class="servi">Fotos da Loja</h3>
             </div>
             <div id="galeria">
                 <input type="button" value="<" onclick="left()" id="dir">
@@ -127,26 +170,34 @@
 
                         }
                         img = document.getElementById("01").innerHTML;
-                    }
-                    
+                    } 
                 </script>
             </div>
-            <div id="barbeariaface">
-                <br/>
-                <iframe width="80%" height="90%" id="gmap_canvas" src="https://maps.google.com/maps?q=R.%20Marqu%C3%AAs%20de%20Cesare%20Bonesana,%20370%20-%20Vila%20Barros&amp;t=k&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                </iframe>
+            <div class="c1_1 rowdiv">
+                <div id="barbeariamap"><!--Google maps-->
+                    <br/> 
+                    <iframe width="80%" height="80%" id="gmap_canvas" src="https://maps.google.com/maps?q=R.%20Marqu%C3%AAs%20de%20Cesare%20Bonesana,%20370%20-%20Vila%20Barros&amp;t=k&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+                <div class="c1_1" id="endereco_size">
+                    <h3>
+                        Endereço
+                    </h3>
+                    <p>
+                        Rua Marquês de Cesare Bonesana <br/> 370 / SP 07195200 <br/> Guarulhos / SP
+                    </p>
+                </div>
             </div>
         </div>
-        <div id="anterodape">
+        <div id="anterodape"> <!--Rodape e subrodape-->
             <div class="subanterodape">
                 <h3>
                     Redes sociais
                 </h3>
-                <a href="https://www.facebook.com/BarbeariadeFreitas/" target="_blank" id="facelink">
-                    <img src="assets/img/facebook.png" id="face">
+                <a href="https://www.facebook.com/BarbeariadeFreitas/" target="_blank">
+                    <img src="assets/img/facebook.png" class="icon">
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=5511969690879" target="_blank" id="facelink">
-                    <img src="assets/img/whatsapp.png" id="face">
+                <a href="https://api.whatsapp.com/send?phone=5511969690879" target="_blank">
+                    <img src="assets/img/whatsapp.png" class="icon">
                 </a>
             </div>
             <div class="subanterodape">
@@ -177,3 +228,6 @@
         </footer>
     </body>
 </html>
+
+<!--<a href="./login.php"> Login </a>-->
+<!--<a href="agendamento.php" id="link_agend"> Agende seu dia aqui</a>-->
