@@ -1,4 +1,4 @@
-﻿/*Box*/
+/*Box*/
 * {
     box-sizing: border-box;
 }
@@ -8,13 +8,22 @@
         flex-wrap: nowrap;
         flex-direction: column;
     }
-}
 
-@media (max-width: 700px) {
     .rowdiv {
         flex-wrap: wrap;
     }
 }
+
+@media (max-width: 1200px) {
+    .sidedcontent {
+        flex-direction: column;
+    }
+
+    #reversediv{
+        flex-direction: column;
+    }
+}
+
 body {
     background-color: rgb(61, 58, 58);
 }
@@ -24,7 +33,7 @@ body {
 }
 
 .spaceplus {
-    margin-top: 25%;
+    margin-top: 20%;
 }
 .rowdiv {
     display: flex;
@@ -41,6 +50,9 @@ body {
     margin: none;
 }
 
+.reversediv {
+    flex-direction: row-reverse;
+}
 /* Cabeçalho */
 
 #cabecalhomain {
@@ -69,6 +81,8 @@ body {
 
 #logo_size {
     width: 1px;
+    position: absolute;
+    top: 0%;
 }
 
 .logo {
@@ -77,6 +91,7 @@ body {
     position: fixed;
     max-height: none; 
     opacity: 0.3;
+    
 }
 
 /* fim do cabeçalho */
@@ -164,9 +179,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    width: 500px;
-    height: 500px;
-    background-color: rgb(12, 12, 12);
+    width: 800px;
+    height: 800px;
     margin: 5px 20px;
 
 }
@@ -177,20 +191,24 @@ body {
 
 #dir {
     width: 10%;
+    height: auto;
     border: none;
     color: white;
     text-decoration: none;
     background-color: rgb(12, 12, 12);
     cursor: pointer;
+    opacity: 0.7;
 }
 
 #esq {
     width: 10%;
+    height: auto;
     border: none;
     color: white;
     text-decoration: none;
     background-color: rgb(12, 12, 12);
     cursor: pointer;
+    opacity: 0.7;
 }
 
 
@@ -379,6 +397,10 @@ h6 {
     color: rgb(225, 225, 225);
 }
 
+.darktext {
+    color: rgb(15, 15, 15);
+} 
+
 .servi {
     width: 30%;
     font-size:4vw;
@@ -394,13 +416,48 @@ h6 {
 
 /*Forms*/
 
+#formplaceholderI {
+    margin: 15% auto 0% auto;
+    background-color: rgb(245, 245, 245);
+    border: 4px rgb(36, 36, 36) solid;
+    width: 350px;
+    padding: 40px 0 40px 0;
+}
+
+@media (max-width: 1000px) {
+    #formplaceholderI {
+        width: 30%;
+    }
+}
+
+#formplaceholderII {
+    margin: 10% auto 0% auto;
+    background-color: rgb(245, 245, 245);
+    border: 4px rgb(36, 36, 36) solid;
+    width: 600px;
+    height: 550px;
+    padding: 40px 0 40px 0;
+}
+
+@media (max-width: 1000px) {
+    #formplaceholderII {
+        width: 400px;
+    }
+}
+
 label {
     font-family: 'Brush Script MT', cursive;
 }
 
 .container {
-    width: 500px;
+    width: auto;
     height: 300px;
+}
+
+@media (max-width: 700px) {
+    .container { 
+        width:auto;
+    }
 }
 
 .m-3 > h3 {
