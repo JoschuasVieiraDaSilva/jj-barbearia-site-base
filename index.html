@@ -132,40 +132,47 @@
             </div>
             <div id="galeria">
                 <input type="button" value="<" onclick="left()" id="dir">
-                <p id="01"></p>
+                <p id="01" class="divfree"></p>
                 <input type="button" value=">" onclick="right()" id="esq">
                 <script>
                     //script
                     var img;
                     var im = document.getElementById("01");
-                    var imgid = {
-                        1:'<img src="assets/img/loja3.png">',
-                        2:'<img src="assets/img/loja4.png">',
-                        3:'<img src="assets/img/loja5.png">',
-                        4:'<img src="assets/img/loja6.png">',
-                        5:'<img src="assets/img/loja7.png">',
-                        6:'<img src="assets/img/loja8.png">',
-                        7:'<img src="assets/img/loja9.png">',
-                        8:'<img src="assets/img/loja10.png">',
-                        9:'<img src="assets/img/loja3.png">' //a primeira imagem sempre ficará no final
-                    };
-                    im.innerHTML = imgid[1];
+                    var imgid = [
+                        '<img src="assets/img/loja3.png" class="imgfree galeria_img_size">',
+                        '<img src="assets/img/loja4.png" class="imgfree galeria_img_size">',
+                        '<img src="assets/img/loja5.png" class="imgfree galeria_img_size">',
+                        '<img src="assets/img/loja6.png" class="imgfree galeria_img_size">',
+                        '<img src="assets/img/loja7.png" class="imgfree galeria_img_size">',
+                        '<img src="assets/img/loja8.png" class="imgfree galeria_img_size">',
+                        '<img src="assets/img/loja9.png" class="imgfree galeria_img_size">',
+                        '<img src="assets/img/loja10.png" class="imgfree galeria_img_size">'
+                    ];
+                    im.innerHTML = imgid[0];
                     img = document.getElementById("01").innerHTML;
                     //console.log(imgid, img, im);
                     function right() {
-                        console.log(img);
-                        for (let i = 1, h = 2; i < 9; i++, h++) {
+                        console.log(imgid);
+                        for (var i = 0; i < imgid.length; i++) {
                             if (imgid[i] == img) {
-                                im.innerHTML = imgid[h];
+                                if (i == imgid.length - 1) {
+                                    im.innerHTML = imgid[0];
+                                } else {
+                                    im.innerHTML = imgid[i + 1];
+                                }
                             }
                         }
                         img = document.getElementById("01").innerHTML;
                     }
                     function left() {
-                        console.log(img);
-                        for (let i = 1, h = 0; i < 9; i++, h++) {
-                            if (imgid[i] == img && h !== 0) {
-                                im.innerHTML = imgid[h];
+                        console.log(imgid);
+                        for (var i = 0; i < imgid.length; i++) {
+                            if (imgid[i] == img) {
+                                if (i == 0) {
+                                    im.innerHTML = imgid[imgid.length - 1];
+                                } else {
+                                    im.innerHTML = imgid[i - 1];
+                                }
                             }
 
                         }
