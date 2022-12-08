@@ -464,6 +464,22 @@ h6 {
     }
 }
 
+#formplaceholderIII {
+    margin: 10% auto 0% auto;
+    background-color: rgb(245, 245, 245);
+    border: 4px rgb(248, 248, 248) solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 475px;
+    padding: 40px 0 40px 0;
+}
+
+@media (max-width: 1000px) {
+    #formplaceholderIII {
+        width: 350px;
+    }
+}
+
 label {
     font-family: 'Brush Script MT', cursive;
 }
