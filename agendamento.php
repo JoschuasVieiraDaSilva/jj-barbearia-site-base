@@ -16,7 +16,7 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["date"]) && 
     $send->setMsgTxt(utf8_decode("Nome: $nome <br/><br/> Email: $email <br/><br/> Dia e Hora: $date às $hour <br/><br/> Tipo de serviço: $service"));
     $send->send_gmail();
 
-    header("Location: https://hostdeprojetosdoifsp.gru.br/barbfreitas/index.html");
+    header("Location: https://hostdeprojetosdoifsp.gru.br/barbfreitas/agendamento.php");
 }
 ?>
 
