@@ -16,6 +16,8 @@ if (isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["date"]) && 
     $send->setMsgTxt("Nome: $nome\nEmail: $email\nDia e Hora: $date - $hour\nTipo de serviço: $service");
     $send->send_gmail();
     
+    header("Location: https://hostdeprojetosdoifsp.gru.br/barbfreitas/index.html");
+    
 }<?php
 
 require './email/Email.class.php';
