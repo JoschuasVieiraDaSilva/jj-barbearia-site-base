@@ -28,7 +28,7 @@ class Email {
     private $subject  = '';
     private $msgHTML  = '';
     private $msgTxt   = '';
-    private $attachments  = '';
+    private $attachments  = array();
     
     function __construct() {
         $this->serverConfiguration();
