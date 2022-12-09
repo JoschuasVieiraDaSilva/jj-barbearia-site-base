@@ -96,6 +96,84 @@ body {
     font-size:2.5vw;
 }
 
+@media (max-width: 1200px) {
+    #cabecalhomain {
+        display: flex;
+        margin-bottom: 5%;
+        height: 100%;
+        padding-bottom: 2px;
+    }
+    
+    #cabecalho {
+        flex: 80%;
+    }
+    
+    #cabecalhotext {
+        margin-top: 30%;
+        margin-bottom: 40%;
+    }
+    #cabecalhotext > h2 {
+        color: white;
+        font-size: 7vw;
+    }
+    
+    #cabecalhotext > a {
+        font-size:2.5vw;
+    }
+}
+
+@media (max-width: 650px) {
+    #cabecalhomain {
+        display: flex;
+        margin-bottom: 5%;
+        height: 100%;
+        padding-bottom: 2px;
+    }
+    
+    #cabecalho {
+        flex: 80%;
+    }
+    
+    #cabecalhotext {
+        margin-top: 70%;
+        margin-bottom: 80%;
+    }
+    #cabecalhotext > h2 {
+        color: white;
+        font-size: 7vw;
+    }
+    
+    #cabecalhotext > a {
+        font-size:2.5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    #cabecalhomain {
+        display: flex;
+        margin-bottom: 5%;
+        height: 100%;
+        padding-bottom: 2px;
+    }
+    
+    #cabecalho {
+        flex: 80%;
+    }
+    
+    #cabecalhotext {
+        margin-top: 90%;
+        margin-bottom: 100%;
+    }
+    #cabecalhotext > h2 {
+        color: white;
+        font-size: 7vw;
+    }
+    
+    #cabecalhotext > a {
+        font-size:2.5vw;
+    }
+}
+
 #logo_size {
     width: 1px;
     position: absolute;
