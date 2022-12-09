@@ -11,12 +11,12 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["date"]) && 
     
     $send = new email\Email();
     $send->setFrom("Joschuas500@gmail.com", "Agendamento");
-    $send->addTo(utf8_decode($email, $nome));
+    $send->addTo($email, $nome);
     $send->setSubject("Agendamento de dia");
     $send->setMsgTxt(utf8_decode("Nome: $nome <br/><br/> Email: $email <br/><br/> Dia e Hora: $date às $hour <br/><br/> Tipo de serviço: $service"));
     $send->send_gmail();
 
-    header("Location: https://hostdeprojetosdoifsp.gru.br/barbfreitas/agendamento.php");
+    header("Location: https://hostdeprojetosdoifsp.gru.br/barbfreitas/index.html);
 }
 ?>
 
