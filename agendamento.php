@@ -46,7 +46,7 @@ if (isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["date"]) && 
             })
         </script>
         <div class="fixedcontent" id="entrar">
-            <a href="./login.php">Entrar</a>
+            <a href="./index.html">Página Inicial</a>
         </div>
         <div id="whatsapp_link">
             <a href="https://api.whatsapp.com/send?phone=5511969690879" target="_blank" class="linkzerostyle">

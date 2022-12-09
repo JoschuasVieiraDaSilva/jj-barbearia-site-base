@@ -419,11 +419,12 @@ a:active {
 }
 
 #entrar {
-    right: 5px;
+    right: 10px;
     top: 5px;
     padding: 30px;
     font-size: 30px;
     border-radius: 10px;
+    width: 15%;
 }
 
 #barbeariamap {
