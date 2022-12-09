@@ -200,7 +200,7 @@ class Email {
 	}
 
 	public function getAttachments() : array{
-	    return ( $this->attachments );
+	    return $this->attachments;
 	}
 
 	public function addAttachments( $filePath ){
