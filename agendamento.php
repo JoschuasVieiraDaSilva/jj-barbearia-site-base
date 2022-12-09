@@ -41,10 +41,7 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["date"]) && 
                     $("#date").attr("min", today);
                     $("#date").attr("max", );
                     console.log($("#date").attr("min"));
-                }); 
-                $("btnService").click(function(){
-                    window.location.href = "./index.html"
-                })
+                });
             })
         </script>
         <div class="fixedcontent" id="entrar">
