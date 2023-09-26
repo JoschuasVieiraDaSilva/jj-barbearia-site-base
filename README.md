@@ -7,7 +7,7 @@ Veja o site de nossa empresa: https://projetos.talentosdoifsp.gru.br/jjastec/
 
 Conheça a Barbearia de Freitas: https://hostdeprojetosdoifsp.gru.br/barbfreitas/
 
-A empresa foi criadas para um projeto escolar do Instituto Federal de São Paulo, campus guarulhos
+A empresa foi criada para um projeto escolar do Instituto Federal de São Paulo, campus guarulhos
 
 © COPYRIGHT 2022 - JJ Assuntos Técnicos
 
